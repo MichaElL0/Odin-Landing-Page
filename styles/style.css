@@ -2,6 +2,35 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: monospace;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header, .description, footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+header h2 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.description h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.description p, .navbar a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: #3882F6;
 }
 
