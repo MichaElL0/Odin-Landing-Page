@@ -21,7 +21,7 @@
     font-weight: bolder;
 }
 
-.description p, .navbar a {
+.description-container p, .navbar a {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -47,11 +47,6 @@ button {
 }
 
 body {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; 
-    flex-direction: column;
-    flex: 1; */
     min-height: 100vh;
 }
 
@@ -60,17 +55,30 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 120px;
 }
+
 
 .navbar {
     display: flex;
     justify-content: space-between;
     width: 80%;
+    margin-bottom: 80px;
+    padding-top: 20px;
 }
 
 .description {
     display: flex;
     width: 80%;
+    justify-content: space-between;
+}
+
+.description-container {
+    
+}
+
+.image-container {
+    
 }
 
 .info {
