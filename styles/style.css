@@ -5,7 +5,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-
 .header, footer {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -59,7 +58,6 @@ body {
     flex-direction: column;
     padding-bottom: 120px;
 }
-
 
 .navbar {
     display: flex;
@@ -131,7 +129,6 @@ body {
     border-radius: 6%
 }
 
-
 .quote {
     display: flex;
     justify-content: center;
@@ -161,7 +158,6 @@ body {
     padding-right: 60px;
     font-size: 32px;
 }
-
 
 .call-to-action-container {
     display: flex;
@@ -201,16 +197,3 @@ footer {
     height: 90px;
     font-size: 18px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
