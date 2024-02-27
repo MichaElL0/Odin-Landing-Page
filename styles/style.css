@@ -104,8 +104,8 @@ body {
 
 .images-container {
     display: flex;
-    width: 65%;
-    justify-content: space-evenly;
+    width: 60%;
+    justify-content: space-between;
     padding-bottom: 100px;
 }
 
@@ -136,9 +136,23 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     background-color:#E5E7EB;
     height: 400px;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 300;
 }
+
+.container-quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+}
+
 
 .call-to-action-container {
     display: flex;
