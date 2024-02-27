@@ -88,25 +88,52 @@ body {
     max-height: 250px;
 }
 
-
-
 .info {
-    display: flex;display: flex;
+    display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
+
+.info h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 60px;
+}
+
+.images-container {
+    display: flex;
+}
+
+
 
 .quote {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color:#E5E7EB;
+    height: 400px;
+}
+
+.call-to-action-container {
+    display: flex;
+    justify-content: center;
+    color:#E5E7EB;
+    height: 400px;
+}
+
+.call-to-action {
+    display: flex;
+    background-color: #3882F6;
+    width: 65%;
 }
 
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70px;
+    height: 90px;
 }
 
 
